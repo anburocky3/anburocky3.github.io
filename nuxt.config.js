@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Anbuselvan Rocky is an entrepreneur with decade of technical, leadership skills. He is currently teaching people about technology. Feel free to contact him if necessary.',
+          'An entrepreneur with decade of technical, leadership skills. He is currently teaching people about technology. Feel free to contact him if necessary.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -53,8 +53,18 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    meta: {
+      title: 'Hello Anbu',
+      author: 'Anbuselvan Annamalai',
+      description:
+        'An entrepreneur with decade of technical, leadership skills. He is currently teaching people about technology. Feel free to contact him if necessary',
+    },
     manifest: {
+      name: 'Anbuselvan Annamalai',
+      short_name: 'Know Anbu',
       lang: 'en',
+      theme_color: '#3367D6',
+      background_color: '#111827',
     },
   },
 
