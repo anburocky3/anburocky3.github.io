@@ -86,8 +86,7 @@
         <div class="p-10 pb-16 sm:pl-36 max-w-xl mt-20">
           <span class="text-yellow-400 text-xl font-weight">Hi, I am</span>
           <h1
-            class="mt-2 font-weight text-6xl text-white cursor-pointer"
-            style="font-family: 'Lato', sans-serif"
+            class="mt-2 font-weight text-6xl text-white cursor-pointer font-lato"
           >
             Anbuselvan
             <!-- <svg
@@ -136,7 +135,7 @@
           /> -->
           <img
             class="-mt-24 max-w-md mr-20"
-            src="~/assets/img/anbuselvan-rocky.png"
+            src="/img/anbuselvan-rocky.png"
             alt="s"
           />
         </div>
@@ -259,15 +258,14 @@
           <!-- src="https://www.cyberdudenetworks.com/assets/img/training/authors/anbuselvan-rocky.png" -->
           <img
             class="object-cover object-center"
-            src="~/assets/img/anbu-2.jpg"
+            src="/img/anbu-2.jpg"
             alt="Anbuselvan Rocky"
           />
         </div>
         <div class="max-w-md">
           <h6 class="font-semibold text-xl text-yellow-500">My Intro</h6>
           <h2
-            class="text-4xl font-black"
-            style="font-family: 'Lato', sans-serif"
+            class="text-4xl font-black font-lato"
           >
             About Me
           </h2>
@@ -475,8 +473,7 @@
       <div class="text-center">
         <h4 class="text-lg text-yellow-500 font-semibold">Why Choose Me</h4>
         <h1
-          class="mt-2 font-weight text-4xl text-white"
-          style="font-family: 'Lato', sans-serif"
+          class="mt-2 font-weight text-4xl text-white font-lato"
         >
           My Expertise Area
         </h1>
@@ -624,7 +621,7 @@
     <section class="text-white bg-gray-900 p-10 sm:p-20">
       <div class="text-center">
         <h4 class="text-yellow-500 font-semibold">My Qualification</h4>
-        <h1 class="mt-1 text-4xl font-bold" style="font-family: 'Lato'">
+        <h1 class="mt-1 text-4xl font-bold font-lato">
           Exciting Journey
         </h1>
       </div>
@@ -904,7 +901,7 @@
         <div>
           <img
             class="max-w-md rounded-full w-48 h-48 sm:w-64 sm:h-64 object-cover object-center"
-            src="~/assets/img/anbu-pose.jpg"
+            src="/img/anbu-pose.jpg"
             alt=""
           />
         </div>
@@ -1165,9 +1162,6 @@
 
 <script>
 export default {
-  head: {
-    title: 'Anbuselvan Rocky Portfolio',
-  },
   data() {
     return {
       social: {
@@ -1182,5 +1176,4 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 </style>
