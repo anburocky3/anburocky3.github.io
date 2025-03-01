@@ -14,13 +14,23 @@ export default {
         content:
           'An entrepreneur with decade of technical, leadership skills. He is currently teaching people about technology. Feel free to contact him if necessary.',
       },
+      // SEO redirect hints
       {
         'http-equiv': 'refresh',
         content: '0; url=https://anbuselvan-annamalai.com',
+        hid: 'refresh',
+      },
+      {
+        name: 'robots',
+        content: 'noindex, follow',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'canonical',
+        href: 'https://anbuselvan-annamalai.com',
+      },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap',
@@ -32,7 +42,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '~/plugins/redirect.client.js', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
