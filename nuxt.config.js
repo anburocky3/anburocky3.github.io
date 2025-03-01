@@ -14,13 +14,16 @@ export default {
         content:
           'An entrepreneur with decade of technical, leadership skills. He is currently teaching people about technology. Feel free to contact him if necessary.',
       },
+      {
+        'http-equiv': 'refresh',
+        content: '0; url=https://anbuselvan-annamalai.com',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     link: [
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap',
       },
     ],
   },
